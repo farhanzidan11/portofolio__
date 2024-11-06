@@ -1,0 +1,149 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA MAHASISWA</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: rgb(240, 0, 0);
+        }
+        /* CSS untuk membuat kotak penjelasan */
+        .penjelasan-container {
+            margin-top: 20px;
+            padding: 15px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            margin-bottom: 10px; /* Beri jarak antar kotak */
+        }
+        .penjelasan-container h3 {
+            margin-bottom: 10px;
+        }
+        .penjelasan-container p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>DATA MAHASISWA</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>IPK Semester 1</th>
+                <th>IPK Semester 2</th>
+                <th>IPK Semester 3</th>
+                <th>IPK Semester 4</th>
+                <th>IPK Semester 5</th>
+                <th>IPK Semester 6</th>
+                <th>IPK Semester 7</th>
+                <th>IPK Semester 8</th>
+                <th>Jurusan</th>
+                <th>Fakultas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>5220311036</td>
+                <td>Zidan</td>
+                <td>4.0</td>
+                <td>4.0</td>
+                <td>4.0</td>
+                <td>3.9</td>
+                <td>3.9</td>
+                <td>3.9</td>
+                <td>3.9</td>
+                <td>4.0</td>
+                <td>Sistem Informasi</td>
+                <td>Fakultas Sains & Teknologi</td>
+            </tr>
+            <tr>
+                <td>5220311008</td>
+                <td>Adios</td>
+                <td>3.7</td>
+                <td>3.6</td>
+                <td>3.5</td>
+                <td>3.5</td>
+                <td>3.9</td>
+                <td>3.7</td>
+                <td>3.6</td>
+                <td>4.0</td>
+                <td>Sistem Informasi</td>
+                <td>Fakultas Sains & Teknologi</td>
+            </tr>
+            <tr>
+                <td>5220311116</td>
+                <td>Dinda</td>
+                <td>4.0</td>
+                <td>4.0</td>
+                <td>3.7</td>
+                <td>3.8</td>
+                <td>3.7</td>
+                <td>3.7</td>
+                <td>3.6</td>
+                <td>3.8</td>
+                <td>Sistem Informasi</td>
+                <td>Fakultas Sains & Teknologi</td>
+            </tr>
+            <tr>
+                <td>5220311001</td>
+                <td>Damar</td>
+                <td>3.5</td>
+                <td>3.7</td>
+                <td>3.3</td>
+                <td>3.6</td>
+                <td>3.9</td>
+                <td>3.7</td>
+                <td>3.9</td>
+                <td>3.8</td>
+                <td>Sistem Informasi</td>
+                <td>Fakultas Sains & Teknologi</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Kotak penjelasan 1: Penjelasan Umum Tabel -->
+    <div class="penjelasan-container">
+        <h3>Penjelasan Tabel</h3>
+        <p>Tabel ini memuat data mahasiswa program studi Sistem Informasi di Fakultas Sains & Teknologi. Setiap mahasiswa memiliki kolom NIM, Nama, dan IPK untuk setiap semester dari semester 1 hingga semester 8. Selain itu, terdapat juga informasi mengenai jurusan dan fakultas masing-masing mahasiswa.</p>
+    </div>
+
+    <!-- Kotak penjelasan 2: Struktur Tabel HTML -->
+    <div class="penjelasan-container">
+        <h3>Struktur Tabel HTML</h3>
+        <p>Bagian tabel di HTML dibuat dengan tag <code>&lt;table&gt;</code>. Baris judul kolom didefinisikan menggunakan tag <code>&lt;thead&gt;</code> dan <code>&lt;th&gt;</code> untuk setiap judul kolom. Setiap data dalam baris di dalam tabel ditulis menggunakan tag <code>&lt;tbody&gt;</code> yang memuat <code>&lt;tr&gt;</code> untuk baris dan <code>&lt;td&gt;</code> untuk setiap data dalam kolom.</p>
+    </div>
+
+    <!-- Kotak penjelasan 3: IPK Mahasiswa -->
+    <div class="penjelasan-container">
+        <h3>IPK Mahasiswa</h3>
+        <p>IPK setiap mahasiswa tercatat dari semester 1 hingga semester 8. Sebagai contoh, mahasiswa bernama "Damar" memiliki IPK yang bervariasi antara 3.5 hingga 3.9 setiap semesternya. Hal yang serupa juga berlaku untuk mahasiswa lain, seperti Zidan, yang memiliki IPK stabil dan bahkan mencapai 4.0 di semester 8.</p>
+    </div>
+
+    <!-- Kotak penjelasan 4: Penggunaan CSS untuk Gaya Tabel -->
+    <div class="penjelasan-container">
+        <h3>Penggunaan CSS untuk Gaya Tabel</h3>
+        <p>Gaya tabel ini menggunakan properti CSS seperti <code>border-collapse</code> untuk menghilangkan jarak antara garis batas (border) sel dan properti <code>th, td</code> yang menetapkan lebar, padding, dan gaya garis batas (border) pada tabel. Selain itu, latar belakang pada <code>th</code> diwarnai dengan <code>rgb(128, 128, 0)</code> agar terlihat berbeda dari data lainnya.</p>
+    </div>
+
+    <!-- Kotak penjelasan 5: Penjelasan Fakultas dan Jurusan -->
+    <div class="penjelasan-container">
+        <h3>Penjelasan Fakultas dan Jurusan</h3>
+        <p>Semua mahasiswa dalam tabel ini berasal dari program studi Sistem Informasi di Fakultas Sains & Teknologi, yang memfokuskan pembelajaran pada berbagai aspek pengelolaan informasi, teknologi, dan sistem yang mendukung operasional bisnis serta kegiatan penelitian.</p>
+    </div>
+
+</body>
+</html>
